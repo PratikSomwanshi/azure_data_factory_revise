@@ -1,0 +1,15 @@
+{
+	"name": "pratikadfsecond",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a20565d0-bf84-4ca7-a286-c2063c966e56",
+		"tenantId": "c849109d-15d1-41ff-bfda-a03ff0354afe"
+	}
+}
