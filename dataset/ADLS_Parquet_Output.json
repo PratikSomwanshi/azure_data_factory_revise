@@ -1,0 +1,20 @@
+{
+	"name": "ADLS_Parquet_Output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ASLA_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Output",
+				"fileSystem": "mycontainer"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
